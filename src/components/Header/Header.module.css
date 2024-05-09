@@ -1,0 +1,35 @@
+.headerStyled{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.figureStyled{
+  display: flex;
+  gap: 2rem;
+}
+.divIconStyled{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.iconStyled{
+  width: 24px;
+}
+.divLoginStyled{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  color: var(--bege)
+}
+.divCarrinStyled{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+.quantStyled{
+  background-color: #000;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: 9pt;
+}
