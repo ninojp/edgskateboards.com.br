@@ -1,17 +1,12 @@
-
 .mainStyled {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 50vh;
 }
-.footerStyled{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 /* Mobile */
 @media (max-width: 700px) {
   .content {

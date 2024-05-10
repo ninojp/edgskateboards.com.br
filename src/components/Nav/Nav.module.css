@@ -1,10 +1,12 @@
 .navStyled{
   display: flex;
   justify-content: center;
+}
+.navStyled ul{
+  display: flex;
+  justify-content: center;
   gap: 2rem;
   font-size: 1.2rem;
   font-weight: 500;
-}
-.navStyled ul{
   list-style: none;
 }

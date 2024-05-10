@@ -21,10 +21,11 @@ export default function Header() {
       <div>
         <div className={styles.divIconStyled}>
           <div className={styles.divLoginStyled}>
-            <FontAwesomeIcon icon={faCircleUser} className={styles.iconStyled} /> Log in
+            <Image src='/circle-user-solid.svg' width={20} height={20} alt='Usuário' className={styles.iconStyled} /> Log in
+            {/* <FontAwesomeIcon icon={faCircleUser} className={styles.iconStyled} /> Log in */}
           </div>
           <div className={styles.divCarrinStyled}>
-            <FontAwesomeIcon icon={faCartArrowDown} className={styles.iconStyled} />
+            <Image src='/cart-shopping-solid.svg' width={20} height={20} alt='Carrinho de Compras' />
             <span className={styles.quantStyled} >0</span>
           </div>
         </div>

@@ -14,6 +14,7 @@
 }
 .iconStyled{
   width: 24px;
+  color: var(--bege)
 }
 .divLoginStyled{
   display: flex;
