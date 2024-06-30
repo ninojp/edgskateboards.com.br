@@ -15,9 +15,9 @@ export default function Footer() {
       <div className={styles.divfinalStyled}>
         <p>©2024 | ELITEG </p>
         <div className={styles.divSocialStyled}>
-          <Image src='/facebook.svg' width={18} height={18} alt='Facebook' />
-          <Image src='/instagram.svg' width={20} height={20} alt='Instagram' />
-          <Image src='/youtube.svg' width={20} height={20} alt='Youtube' />
+          <Image src='/imgsIcons/facebook.svg' width={18} height={18} alt='Facebook' />
+          <Image src='/imgsIcons/instagram.svg' width={20} height={20} alt='Instagram' />
+          <Image src='/imgsIcons/youtube.svg' width={20} height={20} alt='Youtube' />
           </div>
       </div>
     </footer>

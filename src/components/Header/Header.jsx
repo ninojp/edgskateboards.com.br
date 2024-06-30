@@ -11,8 +11,8 @@ export default function Header() {
     <header className={styles.headerStyled}>
       <div>
         <figure className={styles.figureStyled}>
-          <Image priority src='/bandeira-brasil_100.png' width={50} height={27} alt="Bandeira do Brasil" />
-          <Image priority src='/bandeira-espanha_100.png' width={50} height={27} alt="Bandeira da Espanha" />
+          <Image priority src='/imgsIcons/bandeira-brasil_100.png' width={50} height={27} alt="Bandeira do Brasil" />
+          <Image priority src='/imgsIcons/bandeira-espanha_100.png' width={50} height={27} alt="Bandeira da Espanha" />
         </figure>
       </div>
       <div>
@@ -21,11 +21,11 @@ export default function Header() {
       <div>
         <div className={styles.divIconStyled}>
           <div className={styles.divLoginStyled}>
-            <Image src='/circle-user-solid.svg' width={20} height={20} alt='Usuário' className={styles.iconStyled} /> Log in
+            <Image src='/imgsIcons/circle-user-solid.svg' width={20} height={20} alt='Usuário' className={styles.iconStyled} /> Log in
             {/* <FontAwesomeIcon icon={faCircleUser} className={styles.iconStyled} /> Log in */}
           </div>
           <div className={styles.divCarrinStyled}>
-            <Image src='/cart-shopping-solid.svg' width={20} height={20} alt='Carrinho de Compras' />
+            <Image src='/imgsIcons/cart-shopping-solid.svg' width={20} height={20} alt='Carrinho de Compras' />
             <span className={styles.quantStyled} >0</span>
           </div>
         </div>
